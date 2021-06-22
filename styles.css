@@ -1,0 +1,24 @@
+.content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,150px);
+  gap: 5px;
+}
+  div{
+  background: rgb(223, 223, 223);
+  padding: 5px;
+  text-align: left;
+}
+.introduction{
+  grid-column: 1/4;
+  
+}
+.paragraph{
+  grid-column: 2/4;
+  grid-row: 3;
+}
+.profilephoto{
+  grid-column: 1/2;
+  border-image-width: 150px;
+  grid-row: 3;
+}
