@@ -1,24 +1,30 @@
-.content{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(4,150px);
-  gap: 5px;
+body{
+  background-color: rgb(223, 223, 223);
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
 }
-  div{
-  background: rgb(223, 223, 223);
-  padding: 5px;
-  text-align: left;
+
+.profile-photo{
+  max-width: 100%;
+  height: auto;
 }
-.introduction{
-  grid-column: 1/4;
-  
+
+.card{
+  background-color: rgb(223, 223, 223);
 }
-.paragraph{
-  grid-column: 2/4;
-  grid-row: 3;
+
+.list-group-item{
+  background-color: rgb(223, 223, 223);
 }
-.profilephoto{
-  grid-column: 1/2;
-  border-image-width: 150px;
-  grid-row: 3;
+
+.intro-video{
+  align-content: center;
+}
+
+.navbar{
+  background-color: #bdb7d8;
+}
+
+a{
+  color: rgb(88, 21, 88)
 }
